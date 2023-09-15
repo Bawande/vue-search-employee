@@ -1,0 +1,17 @@
+@mixin container($width: 1170px, $offset: 30px) {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: calc($width + $offset);
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: calc($offset / 2);
+  padding-right: calc($offset / 2);
+}
+
+.container {
+  @include container(1266px, 100px);
+
+  @media (max-width: 1024px) {
+    @include container(900px, 80px);
+  }
+}

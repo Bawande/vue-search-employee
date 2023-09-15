@@ -1,0 +1,74 @@
+.message {
+  align-self: center;
+  width: 100%;
+
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
+}
+
+
+.photo {
+  flex-shrink: 0;
+  width: 424px;
+  height: 286px;
+
+  border: 1px solid #E0E0E0;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.description {
+
+  width: 100%;
+  padding-left: 60px;
+  overflow: hidden;
+}
+
+.username {
+  margin-bottom: 10px;
+}
+
+%span {
+  color: $secondary-color;
+
+  &>span {
+    margin-right: 10px;
+
+    color: $primary-color;
+    font-weight: 600;
+  }
+}
+
+.email {
+  margin-bottom: 10px;
+
+  @extend %span;
+
+}
+
+.phone {
+  margin-bottom: 20px;
+
+  @extend %span;
+}
+
+.about-me-title {
+  margin-bottom: 25px;
+
+}
+
+.about-me-text {
+  color: $secondary-color;
+  line-height: normal;
+}

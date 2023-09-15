@@ -1,6 +1,9 @@
 .DS_Store
+.vscode
 node_modules
 /dist
+/src/@basket
+/src/@tmp
 
 
 # local env files

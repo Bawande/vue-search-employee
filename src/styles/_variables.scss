@@ -1,0 +1,49 @@
+// primary - Устанавливает цвет текста на основной цвет темы
+
+// --- theme default
+$white: white;
+$black: black;
+
+// --- theme color
+$primary-color: #333;
+$secondary-color: #76787D;
+
+// --- theme background
+$background: #FFF;
+
+// --- accent
+$accent: #E31F24;
+$on-accent: #FFF;
+
+// --- surface
+$surface: #FDFDFD;
+$on-surface: #333;
+
+// --- border
+$border: #E9ECEF;
+
+// focus
+$focus: lightblue;
+
+// grey
+$grey-80: hsl(0deg 0% 20%);
+$grey-60: hsl(0deg 0% 40%);
+$grey-55: hsl(0deg 0% 45%);
+$grey-50: hsl(0deg 0% 50%);
+$grey-40: hsl(0deg 0% 60%);
+$grey-35: hsl(0deg 0% 65%);
+$grey-25: hsl(0deg 0% 75%);
+$grey-20: hsl(0deg 0% 80%);
+$grey-15: hsl(0deg 0% 85%);
+$grey-10: hsl(0deg 0% 90%);
+$grey-5: hsl(0deg 0% 95%);
+
+// line
+$line-color: hsl(0deg 0% 90%);
+
+
+// messages
+$danger: #ae0a0a;
+$success: #2ECD70;
+$info: #FFAB08;
+$warning: #F1C30F;

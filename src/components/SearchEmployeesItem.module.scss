@@ -1,0 +1,53 @@
+.wrapper {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  max-width: 240px;
+  margin-bottom: 18px;
+  overflow: hidden;
+
+  background: #FFF;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+
+  cursor: pointer;
+}
+
+.photo {
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px;
+
+  border-right: 1px solid #E0E0E0;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  justify-content: center;
+  width: 100%;
+  margin: 5px 15px;
+  overflow: hidden;
+}
+
+.username,
+.email {
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.username {
+  color: $primary-color;
+  font-weight: 600;
+  font-size: 14px;
+}

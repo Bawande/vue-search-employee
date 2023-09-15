@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  width: 100%;
+  min-height: 575px;
+
+  overflow: hidden;
+
+  background-color: $surface;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}

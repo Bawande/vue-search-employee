@@ -1,0 +1,29 @@
+.wrapper {
+  padding-right: 30px;
+  padding-bottom: 22px;
+  padding-left: 20px;
+}
+
+.search-title {
+  margin-bottom: 22px;
+}
+
+.input {
+  display: block;
+  width: 240px;
+  height: 46px;
+  padding: 16px;
+
+  font-size: 14px;
+  font-family: inherit;
+
+  background: $background;
+  border: 1.5px solid $border;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: none;
+
+  &::placeholder {
+    color: #76787D;
+  }
+}
