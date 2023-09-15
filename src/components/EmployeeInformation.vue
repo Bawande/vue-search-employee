@@ -15,36 +15,30 @@
       Выберите сотрудника, чтобы посмотреть его профиль
     </p>
 
-    <div v-if="Object.keys(employee).length !== 0">
-      <div :class="scssStyles.wrapper">
-        <div :class="scssStyles.photo">
-          <UseImage :imgUrl="images" />
-        </div>
+    <div v-if="Object.keys(employee).length !== 0" :class="scssStyles.wrapper">
+      <div :class="scssStyles.photo">
+        <UseImage :imgUrl="images" />
+      </div>
 
-        <div :class="scssStyles.description">
-          <h4 :class="scssStyles.username" class="title --h4">
-            {{ employee.username }}
-          </h4>
+      <div :class="scssStyles.description">
+        <h4 :class="scssStyles.username" class="title --h4">
+          {{ employee.username }}
+        </h4>
 
-          <p :class="scssStyles.email">
-            <span>email:</span>{{ employee.email }}
-          </p>
+        <p :class="scssStyles.email"><span>email:</span>{{ employee.email }}</p>
 
-          <p :class="scssStyles.phone">
-            <span>phone:</span>{{ employee.phone }}
-          </p>
+        <p :class="scssStyles.phone"><span>phone:</span>{{ employee.phone }}</p>
 
-          <h5 :class="scssStyles['about-me-title']" class="title --h4">
-            О себе:
-          </h5>
+        <h5 :class="scssStyles['about-me-title']" class="title --h4">
+          О себе:
+        </h5>
 
-          <p :class="scssStyles['about-me-text']">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            delectus tenetur labore quis eius et nisi cupiditate animi sint iure
-            assumenda itaque, veritatis ad suscipit rerum ratione cum officiis
-            repellendus!
-          </p>
-        </div>
+        <p :class="scssStyles['about-me-text']">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+          delectus tenetur labore quis eius et nisi cupiditate animi sint iure
+          assumenda itaque, veritatis ad suscipit rerum ratione cum officiis
+          repellendus!
+        </p>
       </div>
     </div>
   </div>
