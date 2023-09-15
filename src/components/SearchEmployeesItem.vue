@@ -11,7 +11,6 @@
       <div :class="scssStyles.email">{{ email }}</div>
     </div>
   </div>
-  {{ console.log(getEmployee().id === id) }}
 </template>
 
 <script>
